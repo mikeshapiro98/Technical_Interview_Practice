@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Challenge 4\obj\Debug\Challenge 4.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Challenge 4\obj\Debug\Challenge 4.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Challenge 4\bin\Debug\Challenge 4.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Challenge 4\bin\Debug\Challenge 4.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Challenge 4\bin\Debug\Challenge 4.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Challenge 4\obj\Debug\Challenge 4.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Challenge 4\obj\Debug\Challenge 4.pdb
