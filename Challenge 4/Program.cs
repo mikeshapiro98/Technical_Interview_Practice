@@ -11,8 +11,10 @@ namespace Challenge_4
         static void Main(string[] args)
         {
             dupRemove dupRemove = new dupRemove();
-            string testString = "aaaAAAbbbBBBcccCCCdddDDD";
-            char[] testArray = testString.ToCharArray();
+            Console.WriteLine("Type something and press enter to have any duplicate characters romoved from it:");
+            string userString = Console.ReadLine();
+            //string testString = "aaaAAAbbbBBBcccCCCdddDDD";
+            char[] testArray = userString.ToCharArray();
             char[] returnedToView = dupRemove.duplicater(testArray);
             //foreach(char i in testArray)
             //{
