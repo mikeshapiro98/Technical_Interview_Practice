@@ -10,13 +10,16 @@ namespace Challenge_4
     {
         static void Main(string[] args)
         {
-            string testString = "This should apear with no duplicate characters.";
+            dupRemove dupRemove = new dupRemove();
+            string testString = "aaaAAAbbbBBBcccCCCdddDDD";
             char[] testArray = testString.ToCharArray();
-            foreach(char i in testArray)
-            {
-                Console.WriteLine(i);
-                
-            }
+            char[] returnedToView = dupRemove.duplicater(testArray);
+            //foreach(char i in testArray)
+            //{
+            //    Console.WriteLine(i);
+
+            //}
+            Console.WriteLine(returnedToView);
             Console.ReadLine();
         }
     }

@@ -10,17 +10,20 @@ namespace Challenge_4
     {
         public char[] duplicater(char[] c)
         {
-            
-            for (int i = 0; i <= c.Length; i++)
+            List<char> temp = c.ToList();
+            for (int i = 0; i < temp.Count; i++)
             {
-                for (int j = 0; j <= c.Length; j++)
+                for (int j = 0; j < temp.Count; j++)
                 {
-                    if(c[i]==c[j])
+                    if(temp[j]==temp[i])
                     {
-                        
+                        temp.Remove(temp[j]);
                     }
                 }
             }
+            c = temp.ToArray();
+
+            return c; 
 
         }
 
