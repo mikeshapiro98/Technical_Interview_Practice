@@ -8,14 +8,21 @@ namespace Challenge_4
 {
     class dupRemove
     {
-        //public string duplicater(string[] s)
-        //{
-        //    for(int i = 0; i < s.Length; i++)
-        //    {
+        public char[] duplicater(char[] c)
+        {
+            
+            for (int i = 0; i <= c.Length; i++)
+            {
+                for (int j = 0; j <= c.Length; j++)
+                {
+                    if(c[i]==c[j])
+                    {
+                        
+                    }
+                }
+            }
 
-        //    }
-              
-        //}
+        }
 
     }
 }
