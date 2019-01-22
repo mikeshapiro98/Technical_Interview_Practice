@@ -8,5 +8,11 @@ namespace X_s_and_O_s
 {
     class Compare
     {
+
+        public bool XO(string s)
+        {
+            
+        }
+
     }
 }
