@@ -11,7 +11,7 @@ namespace X_s_and_O_s
 
         public bool XO(string s)
         {
-            
+            return string.Join("", s.Select(x => "" + x + x));
         }
 
     }
