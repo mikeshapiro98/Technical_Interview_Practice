@@ -11,7 +11,21 @@ namespace X_s_and_O_s
 
         public bool XO(string s)
         {
-            return true;
+            string lower = s.ToLower();
+            int xs = 0;
+            int os = 0;
+            foreach (char xo in lower)
+            {
+                if(xo == 'x')
+                {
+                    xs++;
+                }
+                else if(xo == 'o')
+                {
+                    os++;
+                }
+            }
+        
         }
 
     }
