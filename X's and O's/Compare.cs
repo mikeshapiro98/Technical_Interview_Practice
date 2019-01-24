@@ -14,6 +14,7 @@ namespace X_s_and_O_s
             string lower = s.ToLower();
             int xs = 0;
             int os = 0;
+            bool isIt = false;
             foreach (char xo in lower)
             {
                 if(xo == 'x')
@@ -25,7 +26,11 @@ namespace X_s_and_O_s
                     os++;
                 }
             }
-        
+            if(xs == os)
+            {
+                isIt = true;
+            }
+            return isIt;
         }
 
     }
