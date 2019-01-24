@@ -10,6 +10,15 @@ namespace X_s_and_O_s
     {
         static void Main(string[] args)
         {
+            Compare compare = new Compare();
+            string tester = "xoxo";
+            string tester2 = "xxooo";
+            string tester3 = "abc";
+            bool a1 = compare.XO(tester);
+            bool a2 = compare.XO(tester2);
+            bool a3 = compare.XO(tester3);
+            Console.WriteLine(a1 +" "+ a2 +" " +a3);
+            Console.ReadLine();
         }
     }
 }
