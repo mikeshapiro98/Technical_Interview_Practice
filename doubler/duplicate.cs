@@ -12,10 +12,16 @@ namespace doubler
         public string makeDouble(string s)
         {
             string newer = " ";
-            foreach(char c in s)
-            {
-                newer =c + c + c;
-            }
+
+            //for(int i=0; i < s.Length; i++)
+            //{
+            //    newer = s[i] + c + c;
+            //}
+
+            //foreach(char c in s)
+            //{
+            //    newer =s[i] + c + c;
+            //}
 
             return newer;
         }
