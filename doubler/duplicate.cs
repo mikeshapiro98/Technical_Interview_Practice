@@ -18,10 +18,10 @@ namespace doubler
             //    newer = s[i] + c + c;
             //}
 
-            //foreach(char c in s)
-            //{
-            //    newer =s[i] + c + c;
-            //}
+            foreach (char c in s)
+            {
+                newer = newer + c + c;
+            }
 
             return newer;
         }
