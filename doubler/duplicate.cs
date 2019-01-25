@@ -11,9 +11,13 @@ namespace doubler
         
         public string makeDouble(string s)
         {
-            foreach(char )
+            string newer = " ";
+            foreach(char c in s)
+            {
+                newer =c + c + c;
+            }
 
-            return 
+            return newer;
         }
 
     }
