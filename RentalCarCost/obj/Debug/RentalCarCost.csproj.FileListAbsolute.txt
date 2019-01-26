@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\RentalCarCost\bin\Debug\RentalCarCost.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\RentalCarCost\bin\Debug\RentalCarCost.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\RentalCarCost\bin\Debug\RentalCarCost.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\RentalCarCost\obj\Debug\RentalCarCost.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\RentalCarCost\obj\Debug\RentalCarCost.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\RentalCarCost\obj\Debug\RentalCarCost.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\RentalCarCost\obj\Debug\RentalCarCost.pdb
