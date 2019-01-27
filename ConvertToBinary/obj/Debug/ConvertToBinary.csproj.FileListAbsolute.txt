@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\ConvertToBinary\obj\Debug\ConvertToBinary.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\ConvertToBinary\obj\Debug\ConvertToBinary.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\ConvertToBinary\bin\Debug\ConvertToBinary.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\ConvertToBinary\bin\Debug\ConvertToBinary.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\ConvertToBinary\bin\Debug\ConvertToBinary.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\ConvertToBinary\obj\Debug\ConvertToBinary.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\ConvertToBinary\obj\Debug\ConvertToBinary.pdb
