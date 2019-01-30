@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Word Evaluator\bin\Debug\Word Evaluator.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Word Evaluator\bin\Debug\Word Evaluator.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Word Evaluator\bin\Debug\Word Evaluator.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Word Evaluator\obj\Debug\Word Evaluator.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Word Evaluator\obj\Debug\Word Evaluator.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Word Evaluator\obj\Debug\Word Evaluator.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\Word Evaluator\obj\Debug\Word Evaluator.pdb

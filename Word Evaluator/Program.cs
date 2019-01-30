@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,29 @@ namespace Word_Evaluator
 {
     class Program
     {
+
+        static Hashtable alphebetHash;
+
         static void Main(string[] args)
         {
+            //string tester = "This is a test";
+            //string[] sArray = tester.Split(' '); 
+            //foreach(string word in sArray)
+            //{
+            //    Console.WriteLine(word);
+            //}
+            
 
 
+
+
+            //for (char a = 'A'; a <= 'Z'; a++)
+            //{
+            //    int isolation = ;
+            //    Console.WriteLine(a);
+            //}
+
+            Console.ReadLine();
 
 
         }
@@ -20,6 +40,28 @@ namespace Word_Evaluator
     {
         public string vauluator(string s)
         {
+
+            string[] seperator = s.Split(' ');
+           // List<char> evaluators= new List<char>();
+            
+            foreach(string word in seperator)
+            {
+                foreach(char c in word)
+                {
+                    for (char a = 'A'; a <= 'Z'; a++)
+                    {
+
+                    }
+                }
+
+
+            }
+
+            for (char c = 'A'; c <= 'Z'; c++)
+            {
+                 
+            }
+
 
             return "hold";
         }
