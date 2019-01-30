@@ -27,7 +27,7 @@ namespace RentalCarCost
         public static int RentalCarCost(int d)
         {
             int cost = 0;
-           
+
             if (d >= 7)
             {
                 cost = d * 40 - 50;
@@ -41,6 +41,9 @@ namespace RentalCarCost
                 cost = d * 40;
             }
             return cost;
+
+          //  return d >= 7 ? d * 40 - 50 : d >= 3 ? d * 40 - 20 : d* 40;
+
         }
     }
 
