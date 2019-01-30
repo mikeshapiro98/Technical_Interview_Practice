@@ -10,7 +10,7 @@ namespace Word_Evaluator
     class Program
     {
 
-        static Hashtable alphebetHash;
+        //static Hashtable alphebetHash;
 
         static void Main(string[] args)
         {
@@ -20,10 +20,39 @@ namespace Word_Evaluator
             //{
             //    Console.WriteLine(word);
             //}
-            
 
-
-
+            //Instantiate hashtable for alphebet values. 
+            Hashtable alphebetHash = new Hashtable();
+            //Adding information to the Hashtable 
+            //for (int i = 1; i <= 26; i++)
+            //{
+            alphebetHash.Add('a', 1);
+            alphebetHash.Add('b', 2);
+            alphebetHash.Add('c', 3);
+            alphebetHash.Add('a', 4);
+            alphebetHash.Add('a', 5);
+            alphebetHash.Add('a', 6);
+            alphebetHash.Add('a', 7);
+            alphebetHash.Add('a', 8);
+            alphebetHash.Add('a', 9);
+            alphebetHash.Add('a', 10);
+            alphebetHash.Add('a', 11);
+            alphebetHash.Add('a', 12);
+            alphebetHash.Add('a', 13);
+            alphebetHash.Add('a', 14);
+            alphebetHash.Add('a', 15);
+            alphebetHash.Add('a', 16);
+            alphebetHash.Add('a', 17);
+            alphebetHash.Add('a', 18);
+            alphebetHash.Add('a', 19);
+            alphebetHash.Add('a', 20);
+            alphebetHash.Add('a', 21);
+            alphebetHash.Add('a', 22);
+            alphebetHash.Add('a', 23);
+            alphebetHash.Add('a', 24);
+            alphebetHash.Add('a', 25);
+            alphebetHash.Add('a', 26);
+            //}
 
             //for (char a = 'A'; a <= 'Z'; a++)
             //{
