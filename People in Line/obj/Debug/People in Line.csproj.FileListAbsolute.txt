@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\People in Line\bin\Debug\People in Line.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\People in Line\bin\Debug\People in Line.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\People in Line\bin\Debug\People in Line.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\People in Line\obj\Debug\People in Line.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\People in Line\obj\Debug\People in Line.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\People in Line\obj\Debug\People in Line.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\People in Line\obj\Debug\People in Line.pdb
