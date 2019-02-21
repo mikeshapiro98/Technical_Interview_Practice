@@ -11,7 +11,7 @@ namespace People_in_Line
         static void Main(string[] args)
         {
             int[] peopleInLine = new int[] { 25, 25, 50, 50 };
-            int[] peopleInLine2 = new int[] { 25, 25, 50, 50, 100 };
+            int[] peopleInLine2 = new int[] { 25, 25, 50, 50, 100, 100, 50, 25, 100, 100, 100, 100 };
             string answer = linePeeps.Tickets(peopleInLine);
             Console.WriteLine(answer);
             Console.ReadLine();
@@ -26,40 +26,69 @@ namespace People_in_Line
         public static string Tickets(int[] peopleInLine)
         {
 
-
-            int twentyFives = 0, fifties = 0;
-
-            foreach (var bill in peopleInLine)
+            int till = 0;
+            for(int i =0; i<peopleInLine.Length; i++)
             {
-                switch (bill)
+                switch (peopleInLine[i])
                 {
                     case 25:
-                        ++twentyFives;
+                        till += 25;
                         break;
-                    case 50:
-                        --twentyFives;
-                        ++fifties;
-                        break;
-                    case 100:
-                        if (fifties == 0)
+                    //case 50:
+                    //    till -= 25;
+                    //    break; 
+                     default:
+                        if((till - (peopleInLine[i] - 25)) < 0)
                         {
-                            twentyFives -= 3;
-                        }
-                        else
-                        {
-                            --twentyFives;
-                            --fifties;
-                        }
-                        break;
-                }
 
-                if (twentyFives < 0 || fifties < 0)
-                {
-                    return "NO";
+                            return "NO"; 
+                         
+                        }
+                        break;
+
                 }
+                //if(till < 0)
+                //{
+                //    return "NO";
+                //}
+
             }
+            return "YES"; 
 
-            return "YES";
+
+            //int twentyFives = 0, fifties = 0;
+
+            //foreach (var bill in peopleInLine)
+            //{
+            //    switch (bill)
+            //    {
+            //        case 25:
+            //            ++twentyFives;
+            //            break;
+            //        case 50:
+            //            --twentyFives;
+            //            ++fifties;
+            //            break;
+            //        case 100:
+            //            if (fifties == 0)
+            //            {
+            //                twentyFives -= 3;
+            //            }
+            //            else
+            //            {
+            //                --twentyFives;
+            //                --fifties;
+            //            }
+            //            break;
+            //    }
+
+            //    if (twentyFives < 0 || fifties < 0)
+            //    {
+            //        return "NO";
+            //    }
+            //}
+
+            //return "YES";
 
 
 

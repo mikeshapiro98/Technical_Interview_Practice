@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\TrollVowelRemoval\bin\Debug\TrollVowelRemoval.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\TrollVowelRemoval\bin\Debug\TrollVowelRemoval.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\TrollVowelRemoval\bin\Debug\TrollVowelRemoval.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\TrollVowelRemoval\obj\Debug\TrollVowelRemoval.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\TrollVowelRemoval\obj\Debug\TrollVowelRemoval.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\TrollVowelRemoval\obj\Debug\TrollVowelRemoval.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\TrollVowelRemoval\obj\Debug\TrollVowelRemoval.pdb

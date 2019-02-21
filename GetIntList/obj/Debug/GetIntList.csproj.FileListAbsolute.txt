@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\GetIntList\bin\Debug\GetIntList.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\GetIntList\bin\Debug\GetIntList.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\GetIntList\bin\Debug\GetIntList.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\GetIntList\obj\Debug\GetIntList.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\GetIntList\obj\Debug\GetIntList.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\GetIntList\obj\Debug\GetIntList.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\GetIntList\obj\Debug\GetIntList.pdb
