@@ -20,8 +20,10 @@ namespace TrollVowelRemoval
     {
         public static string Disemvowel(string str)
         {
-
-            return str;
+            string vowels = "aeiou";
+            List<string> words = new List<string>();
+            str = words.Where(x => x.All(c => vowels.Contains(c))).ToString(); 
+            return str
         } 
     }
 }
