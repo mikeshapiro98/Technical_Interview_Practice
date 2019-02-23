@@ -10,9 +10,9 @@ namespace TrollVowelRemoval
     {
         static void Main(string[] args)
         {
-            string yaas = Remover.Disemvowel("Hello");
-            Console.WriteLine(yaas); 
-            Console.ReadLine();
+            //string yaas = Remover.Disemvowel("Hello");
+            //Console.WriteLine(yaas); 
+            //Console.ReadLine();
 
         }
     }
