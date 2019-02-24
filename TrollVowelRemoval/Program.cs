@@ -13,7 +13,8 @@ namespace TrollVowelRemoval
             //string yaas = Remover.Disemvowel("Hello");
             //Console.WriteLine(yaas); 
             //Console.ReadLine();
-
+            Overrider overrider = new Overrider();
+            overrider.Adder(1, 2);
         }
     }
     static class Remover

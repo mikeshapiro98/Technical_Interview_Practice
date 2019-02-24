@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TrollVowelRemoval
 {
-    class Override : AbstarctTest
+    class Overrider : AbstarctTest
     {
-        public virtual int Adder(int a,int b)
+        public  int Adder(int a,int b)
         {
             return (a * b); 
         } 
