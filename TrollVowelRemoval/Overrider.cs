@@ -8,9 +8,9 @@ namespace TrollVowelRemoval
 {
     class Overrider : AbstarctTest
     {
-        public  int Adder(int a,int b)
+        public override int Adder(int a, int b)
         {
-            return (a * b); 
+            return (a + b); 
         } 
     }
 }

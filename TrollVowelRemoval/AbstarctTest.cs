@@ -9,7 +9,7 @@ namespace TrollVowelRemoval
     abstract class AbstarctTest
     {
 
-        abstract public int Adder();
+        abstract public int Adder(int a, int b);
        
     }
 }
