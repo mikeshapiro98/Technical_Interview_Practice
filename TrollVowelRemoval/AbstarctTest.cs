@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace TrollVowelRemoval
 {
-    abstract class AbstarctTest
+    public abstract class AbstarctTest
     {
-
-        abstract public int Adder(int a, int b);
-       
+        abstract public int Adder(int a, int b);       
     }
 }
