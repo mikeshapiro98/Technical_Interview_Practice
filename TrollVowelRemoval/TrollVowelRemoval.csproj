@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstarctTest.cs" />
+    <Compile Include="moreMoreMore.cs" />
     <Compile Include="Overrider.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -13,5 +13,6 @@ namespace TrollVowelRemoval
         {
             return (c * d); 
         } 
+        
     }
 }

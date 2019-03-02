@@ -13,15 +13,15 @@ namespace TrollVowelRemoval
             //string yaas = Remover.Disemvowel("Hello");
             //Console.WriteLine(yaas);
             //Console.ReadLine();
-            Overrider overrider = new Overrider();
-            int add = overrider.Adder(1, 2);
-            int mult = overrider.Multo(3, 7);
-            Console.WriteLine(add + "\n" + mult); 
-            Console.ReadLine();
-            AbstarctTest abstarctTest = new Overrider();
-            int third = abstarctTest.Multo(8, 7);
-            Console.WriteLine(third);
-            Console.ReadLine();
+            //Overrider overrider = new Overrider();
+            //int add = overrider.Adder(1, 2);
+            //int mult = overrider.Multo(3, 7);
+            //Console.WriteLine(add + "\n" + mult); 
+            //Console.ReadLine();
+            //AbstarctTest abstarctTest = new Overrider();
+            //int third = abstarctTest.Multo(8, 7);
+            //Console.WriteLine(third);
+            //Console.ReadLine();
 
 
         }
