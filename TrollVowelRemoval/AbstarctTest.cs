@@ -8,6 +8,10 @@ namespace TrollVowelRemoval
 {
     public abstract class AbstarctTest
     {
-        abstract public int Adder(int a, int b);       
+        abstract public int Adder(int a, int b);     
+        public virtual int Multo(int c, int d)
+        {
+            return (c * d); 
+        } 
     }
 }
