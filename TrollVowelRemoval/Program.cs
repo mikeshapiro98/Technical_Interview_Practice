@@ -35,17 +35,21 @@ namespace TrollVowelRemoval
     {
         public static string Disemvowel(string str)
         {
-            IEnumerable<char> vowels = "aeiouAEIOU";
-            StringBuilder exper = new StringBuilder();
-            for (int i = 0; i < str.Length; i++)
-            {
-                if (!vowels.Contains(str[i]))
-                {
-                    exper.Append(str[i]);
-                }
-            }
-            str = exper.ToString(); 
-           return str;
+           // IEnumerable<char> vowels = "aeiouAEIOU";
+           // StringBuilder exper = new StringBuilder();
+           // for (int i = 0; i < str.Length; i++)
+           // {
+           //     if (!vowels.Contains(str[i]))
+           //     {
+           //         exper.Append(str[i]);
+           //     }
+           // }
+           // str = exper.ToString(); 
+           //return str;
+
+
+            return string.Concat(str.Where(ch => !"aeiouAEIOU".Contains(ch)));
+
         } 
     }
 }
