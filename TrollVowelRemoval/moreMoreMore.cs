@@ -10,7 +10,7 @@ namespace TrollVowelRemoval
     {
         public override int Adder(int a, int b)
         {
-            throw new NotImplementedException();
+            return (a - b);
         }
         public override int Multo(int c, int d)
         {
