@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\squareItAll\bin\Debug\squareItAll.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\squareItAll\bin\Debug\squareItAll.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\squareItAll\bin\Debug\squareItAll.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\squareItAll\obj\Debug\squareItAll.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\squareItAll\obj\Debug\squareItAll.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\squareItAll\obj\Debug\squareItAll.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\squareItAll\obj\Debug\squareItAll.pdb
