@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\stringReversal\bin\Debug\stringReversal.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\stringReversal\bin\Debug\stringReversal.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\stringReversal\bin\Debug\stringReversal.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\stringReversal\obj\Debug\stringReversal.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\stringReversal\obj\Debug\stringReversal.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\stringReversal\obj\Debug\stringReversal.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\stringReversal\obj\Debug\stringReversal.pdb
