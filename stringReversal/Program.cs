@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Console; 
 
+
 namespace stringReversal
 {
     class Program
@@ -21,11 +22,47 @@ namespace stringReversal
     {
         public static string inReverse(string str)
         {
-            	  return string.Join(" ",str.Split(' ').Select(x => new String(x.Reverse().ToArray())).ToArray());
+
+            string[] Parced = str.Split(' ');
+            string final = " ";
+            foreach (string word in Parced)
+            {
+                string result = "";
+
+                foreach (char letter in word.ToCharArray())
+                {
+                    result = letter + result;
+                }
+                final = final + result + " ";
+            }
+            return final;
+
+
+            //string strrev = "";
+
+            //foreach (var word in str.Split(' '))
+            //{
+            //    string temp = "";
+            //    foreach (var ch in word.ToCharArray())
+            //    {
+            //        temp = ch + temp;
+            //    }
+            //    strrev = strrev + temp + " ";
+            //}
+            //return strrev;
 
         }
     }
 }
+
+
+
+
+
+
+
+
+// return string.Join(" ",str.Split(' ').Select(x => new String(x.Reverse().ToArray())).ToArray());
 
 
 //PROMPT
