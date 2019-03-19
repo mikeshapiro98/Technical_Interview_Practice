@@ -27,9 +27,9 @@ namespace sumOfTwoLowest
 
         public static int sumTwoSmallestNumbers(int[] numbers)
         {
-            Array.Sort(numbers);
-            return numbers[0] + numbers[1];
-            //return numbers.OrderBy(i => i).Take(2).Sum();
+           // Array.Sort(numbers);
+           // return numbers[0] + numbers[1];
+            return numbers.OrderBy(i => i).Take(2).Sum();
         }
 
     }
