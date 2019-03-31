@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\WeircdCase\bin\Debug\WeircdCase.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\WeircdCase\bin\Debug\WeircdCase.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\WeircdCase\bin\Debug\WeircdCase.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\WeircdCase\obj\Debug\WeircdCase.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\WeircdCase\obj\Debug\WeircdCase.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\WeircdCase\obj\Debug\WeircdCase.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\WeircdCase\obj\Debug\WeircdCase.pdb
