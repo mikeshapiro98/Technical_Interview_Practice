@@ -13,10 +13,10 @@ namespace sumOfTwoLowest
         {
             int[] res = { 7, 3, 3, 1, 6, 2 };
             WriteLine(sumTwo.sumTwoSmallestNumbers(res));
-            foreach (int num in res)
-            {
-                WriteLine(num);
-            }
+            //foreach (int num in res)
+            //{
+            //    WriteLine(num);
+            //}
             ReadLine();
           
 
