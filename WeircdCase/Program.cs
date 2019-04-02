@@ -30,36 +30,51 @@ namespace WeircdCase
     {
         public static string toWeirdCase(string s)
         {
+            List<string> holder = new List<string>();
             string [] words = s.Split();
-            foreach(string tibbie in words)
+            foreach (string tibbie in words)
             {
-                //foreach (char tibble in tibbie)
-                //{
-                char [] a = tibbie.ToCharArray(); 
-                    for (int i = 0; i < a.Length; i++)
+                char[] a = tibbie.ToCharArray();
+
+
+                for (int i = 0; i < a.Length; i++)
+                {
+
+                    if (i == 0 || i % 2 == 0)
                     {
+                            
+                        var d = char.ToUpper(a[i]);
+                        a[i] = d; 
 
-                        if (i == 0 && i % 2 == 0)
-                        {
-                            a[i] = char.ToUpper(a[i]); 
-
-                        }
-                        
                     }
-               // }
-                
-          
+                        
+                }
 
+                string z = new string(a);
+                holder.Add(z);
             }
-          
-            s = string.Join("", words);
-            return s;
+
+            //  string z = new string(a); 
+             s = string.Join(" ", holder.ToArray());
+;            return s;
+            
+            // holder.Join().ToString();
+            //s = string.Join("", words);
+           // return holder;
         }
     }
 }
 
 
 //Graveyard
+
+
+
+//foreach (char tibble in tibbie)
+//{
+
+// }
+
 
 
 //Char.ToUpper(tibbie[i]);                           
