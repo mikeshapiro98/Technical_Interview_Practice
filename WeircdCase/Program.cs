@@ -10,20 +10,9 @@ namespace WeircdCase
     {
         static void Main(string[] args)
         {
-
-            // Console.WriteLine( WeirdCase.toWeirdCase("hello"));
-
             string big = "this is a string";
-            //for(int i = 0; i < big.Length; i++)
-            //{
-            //    big[i].ToString().ToUpper();
-            //    Console.WriteLine(big[i]);
-            //}
-
             Console.WriteLine(WeirdCase.toWeirdCase(big));
-
             Console.ReadLine(); 
-
         }
     }
     class WeirdCase
@@ -35,32 +24,20 @@ namespace WeircdCase
             foreach (string tibbie in words)
             {
                 char[] a = tibbie.ToCharArray();
-
-
                 for (int i = 0; i < a.Length; i++)
                 {
 
                     if (i == 0 || i % 2 == 0)
-                    {
-                            
-                        var d = char.ToUpper(a[i]);
-                        a[i] = d; 
-
+                    {                                                  
+                         a[i] = char.ToUpper(a[i]);                       
                     }
                         
                 }
-
                 string z = new string(a);
                 holder.Add(z);
             }
-
-            //  string z = new string(a); 
-             s = string.Join(" ", holder.ToArray());
-;            return s;
-            
-            // holder.Join().ToString();
-            //s = string.Join("", words);
-           // return holder;
+            s = string.Join(" ", holder.ToArray());
+             return s;         
         }
     }
 }
@@ -68,6 +45,23 @@ namespace WeircdCase
 
 //Graveyard
 
+//  string z = new string(a);    
+
+//var d 
+//a[i] = d; 
+// holder.Join().ToString();
+//s = string.Join("", words);
+// return holder;
+
+
+
+// Console.WriteLine( WeirdCase.toWeirdCase("hello"));
+
+//for(int i = 0; i < big.Length; i++)
+//{
+//    big[i].ToString().ToUpper();
+//    Console.WriteLine(big[i]);
+//}
 
 
 //foreach (char tibble in tibbie)
