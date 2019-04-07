@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\camelCaser\bin\Debug\camelCaser.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\camelCaser\bin\Debug\camelCaser.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\camelCaser\bin\Debug\camelCaser.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\camelCaser\obj\Debug\camelCaser.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\camelCaser\obj\Debug\camelCaser.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\camelCaser\obj\Debug\camelCaser.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\camelCaser\obj\Debug\camelCaser.pdb
