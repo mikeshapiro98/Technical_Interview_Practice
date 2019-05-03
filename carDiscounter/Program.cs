@@ -10,6 +10,33 @@ namespace carDiscounter
     {
         static void Main(string[] args)
         {
+            int[] car = BuyCar.nbMonths(12000, 8000, 1000, 1.5);
+            foreach(int i in car)
+            {
+                Console.WriteLine(i);
+            }
+            Console.ReadLine();
+
+        }
+    }
+
+    public static class BuyCar
+    {
+        public static int[] nbMonths(int startPriceOld, int startPriceNew, int savingPerMonth, double percentLossByMonth)
+        {
+            int month = 0;
+            double priceNew = startPriceNew;
+            double priceOld = startPriceOld;
+            double savings = priceOld;
+            while (savings < priceNew)
+            {
+                month++;
+                if (month % 2 == 0) percentLossByMonth += 0.5;
+                priceOld -= priceOld * (percentLossByMonth / 100);
+                priceNew -= priceNew * (percentLossByMonth / 100);
+                savings = month * savingPerMonth + priceOld;
+            }
+            return new int[] { month, (int)(Math.Round(savings - priceNew)) };
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\carDiscounter\bin\Debug\carDiscounter.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\carDiscounter\bin\Debug\carDiscounter.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\carDiscounter\bin\Debug\carDiscounter.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\carDiscounter\obj\Debug\carDiscounter.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\carDiscounter\obj\Debug\carDiscounter.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\carDiscounter\obj\Debug\carDiscounter.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\carDiscounter\obj\Debug\carDiscounter.pdb
