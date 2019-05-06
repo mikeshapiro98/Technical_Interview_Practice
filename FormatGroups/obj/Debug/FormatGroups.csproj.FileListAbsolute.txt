@@ -1,0 +1,7 @@
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\FormatGroups\bin\Debug\FormatGroups.exe.config
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\FormatGroups\bin\Debug\FormatGroups.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\FormatGroups\bin\Debug\FormatGroups.pdb
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\FormatGroups\obj\Debug\FormatGroups.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\FormatGroups\obj\Debug\FormatGroups.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\FormatGroups\obj\Debug\FormatGroups.exe
+C:\Users\micha\OneDrive\Desktop\Technical Interview Questions\FormatGroups\obj\Debug\FormatGroups.pdb

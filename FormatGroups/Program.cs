@@ -10,13 +10,48 @@ namespace FormatGroups
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine(Groups.Check("()"));
+            Console.WriteLine(Groups.Check("(){"));
+            Console.ReadLine();
+
         }
     }
     public static class Groups
     {
+        private static readonly Dictionary<char, char> ClosingToOpeningBrace;
+        private static readonly char[] OpeningBraces;
+        private static readonly char[] ClosingBraces;
+
+        static Groups()
+        {
+            ClosingToOpeningBrace = new Dictionary<char, char>
+        {
+          { ')', '(' },
+          { ']', '[' },
+          { '}', '{' }
+        };
+            OpeningBraces = ClosingToOpeningBrace.Values.ToArray();
+            ClosingBraces = ClosingToOpeningBrace.Keys.ToArray();
+        }
+
         public static bool Check(string input)
         {
-            return false;
+            var stack = new Stack<char>();
+            foreach (char c in input.ToCharArray())
+            {
+                if (OpeningBraces.Contains(c))
+                {
+                    stack.Push(c);
+                }
+                else if (ClosingBraces.Contains(c))
+                {
+                    bool hasOpeningBrace = stack.Count != 0 && stack.Pop() == ClosingToOpeningBrace[c];
+                    if (!hasOpeningBrace) return false;
+                }
+            }
+
+            return stack.Count == 0;
         }
     }
 
